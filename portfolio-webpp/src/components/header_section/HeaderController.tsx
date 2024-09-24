@@ -1,16 +1,8 @@
 import "./HeaderController.scss";
-import { ContactCard } from "../helper/ContactCard";
-import { ExperienceCard } from "../helper/ExperienceCard";
-import { SkillsCard } from "../helper/SkillsCard";
-import { EducationCard } from "../helper/EducationCard";
-import { ProjectsCard } from "../helper/ProjectsCard";
-import { Route, Routes } from "react-router-dom";
-import React from "react";
-import { HomePage } from "../helper/HomePage";
 
 export const HeaderController = () => {
   return (
-    <React.Fragment>
+    <div className="header__block">
       <nav className="nav">
         <div>
           <a href="/">Narayana Reddy</a>
@@ -36,14 +28,6 @@ export const HeaderController = () => {
           </ul>
         </div>
       </nav>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<ContactCard />} />
-        <Route path="/experience" element={<ExperienceCard />} />
-        <Route path="/skills" element={<SkillsCard />} />
-        <Route path="/education" element={<EducationCard />} />
-        <Route path="/projects" element={<ProjectsCard />} />
-      </Routes>
-    </React.Fragment>
+    </div>
   );
 };
