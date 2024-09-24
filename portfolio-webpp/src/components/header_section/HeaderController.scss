@@ -10,5 +10,15 @@
     display: flex;
     align-items: center;
     gap: 4vw;
+
+    > li:active {
+      filter: drop-shadow(0 0 2rem rgb(251, 250, 253));
+      transform: scale(0.96) translateY(5px);
+    }
+
+    > li > a:hover {
+      filter: drop-shadow(0 -2mm 4mm rgb(236, 234, 235));
+      color: black;
+    }
   }
 }
