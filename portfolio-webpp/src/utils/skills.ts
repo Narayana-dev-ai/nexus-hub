@@ -17,3 +17,20 @@ export const skillsData = [
   "Pyspark",
   "Neptune (Gremlin Queries)",
 ];
+
+export const skills = [
+  "react",
+  "java",
+  "aws",
+  "python",
+  "html",
+  "css",
+  "javascript",
+  "typescript",
+  "nextJs",
+  "tailwind",
+  "mysql",
+  "git",
+  "docker",
+  "materialui",
+];

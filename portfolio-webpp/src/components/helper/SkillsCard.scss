@@ -1,0 +1,44 @@
+.skill__card {
+  width: 100%;
+  height: 82.2vh;
+
+  .skill__items {
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+
+    .icon__scroll {
+      height: 100%;
+      display: flex;
+      position: absolute;
+      align-items: center;
+      overflow: hidden;
+      animation: bannermove 15s linear infinite;
+      gap: 2rem;
+
+      .card {
+        width: 200px;
+        height: 150px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+
+        &:hover {
+          filter: drop-shadow(0 2px 4px rgb(240, 232, 232));
+          transform: scale(1.3);
+        }
+      }
+    }
+
+    @keyframes bannermove {
+      0% {
+        transform: translate(0, 0);
+      }
+      100% {
+        transform: translate(-50%, 0);
+      }
+    }
+  }
+}
