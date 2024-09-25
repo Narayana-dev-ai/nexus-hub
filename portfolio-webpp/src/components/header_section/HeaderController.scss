@@ -4,7 +4,6 @@
   position: fixed;
   font-weight: 900;
   box-shadow: 0px 8px 12px 6px rgb(216, 139, 139);
-  border-radius: 50px;
 
   .nav {
     margin: 0 6vw 0 5vw;
@@ -24,7 +23,7 @@
         transform: scale(0.96) translateY(5px);
       }
 
-      > li > a:hover {
+      > li:hover {
         filter: drop-shadow(0 -2mm 4mm rgb(236, 234, 235));
         color: black;
       }

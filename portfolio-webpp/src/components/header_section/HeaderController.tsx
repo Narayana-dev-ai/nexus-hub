@@ -11,19 +11,22 @@ export const HeaderController = () => {
         <div className="nav__list">
           <ul>
             <li>
-              <a href="/about">ABOUT</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="/experience">EXPERIENCE</a>
+              <a href="/about">About</a>
             </li>
             <li>
-              <a href="/skills">SKILLS</a>
+              <a href="/experience">Works</a>
             </li>
             <li>
-              <a href="/education">EDUCATION</a>
+              <a href="/skills">Skills</a>
             </li>
             <li>
-              <a href="/projects">PROJECTS</a>
+              <a href="/education">Education</a>
+            </li>
+            <li>
+              <a href="/projects">Projects</a>
             </li>
           </ul>
         </div>
