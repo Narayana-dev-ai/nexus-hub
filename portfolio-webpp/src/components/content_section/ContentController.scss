@@ -1,5 +1,32 @@
 .content__block {
+  margin-top: 4.2rem;
+  height: 100%;
   width: 100%;
-  position: absolute;
-  margin-top: 5rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  &__img {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+    background-color: lightpink;
+    background-image: url("background_pic.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+
+    .content__bolck__blur {
+      height: 100%;
+      width: 100%;
+      background-color: rgb(27 1 1 / 60%);
+      overflow: hidden;
+
+      .alignment {
+        margin: 2rem;
+      }
+    }
+  }
 }

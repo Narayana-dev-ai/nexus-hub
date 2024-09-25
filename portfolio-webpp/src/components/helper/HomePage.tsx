@@ -8,12 +8,12 @@ import { SkillsCard } from "./SkillsCard";
 
 export const HomePage = () => {
   return (
-    <React.Fragment>
-      <ContactCard />
-      <ExperienceCard />
-      <SkillsCard />
-      <ProjectsCard />
-      <EducationCard />
-    </React.Fragment>
+    <div className="home_page">
+        <ContactCard />
+        <ExperienceCard />
+        <SkillsCard />
+        <ProjectsCard />
+        <EducationCard />
+    </div>
   );
 };
