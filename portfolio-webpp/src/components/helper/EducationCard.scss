@@ -1,0 +1,73 @@
+.education__card {
+  width: 100%;
+
+  .card {
+    position: relative;
+    width: 700px;
+    height: 500px;
+    border-radius: 15px;
+
+    .card__header {
+      display: grid;
+      width: 100%;
+      height: 80px;
+      border-radius: 15px;
+      border: 2px solid beige;
+      align-items: center;
+      background: linear-gradient(
+        to right,
+        rgb(225, 238, 105),
+        rgb(216, 30, 61),
+        rgb(46, 201, 46)
+      );
+
+      .card__title {
+        position: relative;
+        justify-self: center;
+      }
+
+      .dots {
+        position: absolute;
+        display: flex;
+        justify-content: flex-start;
+        align-self: center;
+        margin-left: 35px;
+        gap: 10px;
+
+        span {
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          background-color: pink;
+
+          &:nth-child(1) {
+            background-color: rgb(245, 65, 10);
+          }
+          &:nth-child(2) {
+            background-color: rgb(57, 17, 235);
+          }
+          &:nth-child(3) {
+            background-color: rgb(238, 231, 231);
+          }
+        }
+      }
+    }
+
+    .card__content {
+      position: relative;
+      width: 100%;
+      height: calc(100% - 80px);
+      background-color: lightseagreen;
+      border-radius: 15px;
+
+      .card__cont {
+        margin: 15px;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
