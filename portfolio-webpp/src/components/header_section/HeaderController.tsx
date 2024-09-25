@@ -11,7 +11,7 @@ export const HeaderController = () => {
 
           <div className="nav__list">
             <ul>
-              {/* <li>
+              <li>
                 <a href="/">Home</a>
               </li>
               <li>
@@ -22,13 +22,13 @@ export const HeaderController = () => {
               </li>
               <li>
                 <a href="/skills">Skills</a>
-              </li> */}
+              </li>
               <li>
                 <a href="/education">Education</a>
               </li>
-              {/* <li>
+              <li>
                 <a href="/projects">Projects</a>
-              </li> */}
+              </li>
             </ul>
           </div>
         </nav>

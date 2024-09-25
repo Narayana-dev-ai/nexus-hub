@@ -14,12 +14,12 @@ export const ContentController = () => {
         <div className="content__bolck__blur">
           <div className="alignment">
             <Routes>
-              {/* <Route path="/" element={<HomePage />} />
+              <Route path="/" element={<HomePage />} />
               <Route path="/about" element={<ContactCard />} />
               <Route path="/experience" element={<ExperienceCard />} />
-              <Route path="/skills" element={<SkillsCard />} /> */}
+              <Route path="/skills" element={<SkillsCard />} />
               <Route path="/education" element={<EducationCard />} />
-              {/* <Route path="/projects" element={<ProjectsCard />} /> */}
+              <Route path="/projects" element={<ProjectsCard />} />
             </Routes>
           </div>
         </div>
