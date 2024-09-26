@@ -1,18 +1,12 @@
 .content__block {
-  margin-top: 4.2rem;
-  height: 100%;
+  margin-top: 0.2rem;
   width: 100%;
-  position: relative;
+  height: calc(100vh - 4rem);
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
 
   &__img {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
     position: relative;
-    background-color: lightpink;
+    height: 100%;
     background-image: url("background_pic.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -20,9 +14,9 @@
 
     .content__bolck__blur {
       height: 100%;
-      width: 100%;
       background-color: rgb(27 1 1 / 60%);
-      overflow: hidden;
+      background-size: cover;
+      overflow: auto;
 
       .alignment {
         margin: 2rem;

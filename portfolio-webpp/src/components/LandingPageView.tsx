@@ -5,10 +5,8 @@ import "./LandingPageView.scss";
 export const LandingPageView = () => {
   return (
     <div className="container">
-      <div className="container__page">
-        <HeaderController />
-        <ContentController />
-      </div>
+      <HeaderController />
+      <ContentController />
     </div>
   );
 };
