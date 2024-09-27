@@ -1,14 +1,11 @@
 .header__block {
   width: 100%;
   font-weight: 900;
-
-  &__img {
-    width: 100%;
-    min-height: 4rem;
-    background-image: url("./header_bg.jpg");
-    background-size: cover;
-    box-shadow: 0px 8px 12px 6px rgb(202, 61, 61);
-  }
+  min-height: 4rem;
+  background-image: url("./header_bg.jpg");
+  background-size: cover;
+  box-shadow: 0px 8px 12px 6px rgb(202, 61, 61);
+  box-sizing: border-box;
 
   .nav {
     width: 100%;

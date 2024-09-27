@@ -10,7 +10,6 @@ import { ProjectsCard } from "../helper/ProjectsCard";
 export const ContentController = () => {
   return (
     <div className="content__block">
-      <div className="content__block__img">
         <div className="content__bolck__blur">
           <div className="alignment">
             <Routes>
@@ -22,7 +21,6 @@ export const ContentController = () => {
               <Route path="/projects" element={<ProjectsCard />} />
             </Routes>
           </div>
-        </div>
       </div>
     </div>
   );
