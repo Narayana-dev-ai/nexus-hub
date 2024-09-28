@@ -1,4 +1,5 @@
 import { skills } from "../../utils/skills";
+import { LineCard } from "../cards/LineCard";
 import "./SkillsCard.scss";
 
 export const SkillsCard = () => {
@@ -7,6 +8,7 @@ export const SkillsCard = () => {
       <div className="skill__describe">
         <h1>Hey </h1>
       </div>
+      <LineCard title="SKILLS" />
       <div className="skill__items">
         <div className="icon__scroll">
           {skills.map((item) => {

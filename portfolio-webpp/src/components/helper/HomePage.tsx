@@ -1,14 +1,14 @@
 import React from "react";
-import { ContactCard } from "./ContactCard";
 import { EducationCard } from "./EducationCard";
 import { ExperienceCard } from "./ExperienceCard";
 import { ProjectsCard } from "./ProjectsCard";
 import { SkillsCard } from "./SkillsCard";
+import { AvCardHome } from "./AvCardHome";
 
 export const HomePage = () => {
   return (
     <React.Fragment>
-      <ContactCard />
+      <AvCardHome />
       <ExperienceCard />
       <SkillsCard />
       <ProjectsCard />
