@@ -90,19 +90,10 @@
   --glow-rotate-unit: 1deg;
 }
 
-body {
-  background-color: var(--card-color);
-  font-family: "Mona Sans", sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-.card {
+.g_card {
   width: var(--card-width);
-  min-width: 300px;
-  aspect-ratio: 1.5/1;
+  min-width: 450px;
+  height: 40vh;
   color: white;
   margin: auto;
   display: flex;
@@ -112,9 +103,10 @@ body {
   z-index: 2;
   border-radius: var(--card-radius);
   cursor: pointer;
+  flex: 1 1 400px;
 }
 
-.card:hover > div {
+.g_card:hover > div {
   mix-blend-mode: darken;
   --text-color: white;
   box-shadow: 0 0 calc(var(--white-shadow) * 1vw)
@@ -122,13 +114,13 @@ body {
   animation: shadow-pulse calc(var(--animation-speed) * 2) linear infinite;
 }
 
-.card:hover .inner:before {
+.g_card:hover .inner:before {
   --bg-size: 15;
   animation-play-state: paused;
   transition: --bg-size var(--interaction-speed) ease;
 }
 
-.card:hover .glow {
+.g_card:hover .glow {
   --glow-blur: 1.5;
   --glow-opacity: 0.6;
   --glow-scale: 2.5;
@@ -139,15 +131,15 @@ body {
   animation-play-state: paused;
 }
 
-.card:hover .glow:after {
+.g_card:hover .glow:after {
   --glow-translate-y: 0;
   animation-play-state: paused;
   transition: --glow-translate-y 0s ease, --glow-blur 0.05s ease,
     --glow-opacity 0.05s ease, --glow-scale 0.05s ease, --glow-radius 0.05s ease;
 }
 
-.card:before,
-.card:after {
+.g_card:before,
+.g_card:after {
   content: "";
   display: block;
   position: absolute;
@@ -165,22 +157,34 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 800;
-  text-transform: uppercase;
-  font-stretch: 150%;
-  font-size: clamp(1.5vw, 1.5vmin, 32px);
   color: var(--text-color);
-  padding: calc(var(--card-width) / 8);
-}
+  padding: 20px;
 
-.inner span {
-  display: inline-block;
-  padding: 0.25em;
-  border-radius: 4px;
-  background: var(--text-color);
-  color: black;
-  margin-right: 8px;
-  font-weight: 900;
+  .gl__content {
+    color: white;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .gl__role {
+      position: relative;
+      display: inline-flex;
+      justify-content: space-between;
+
+      .duration {
+        font-family: emoji;
+        color: #f2c3c3;
+      }
+    }
+    .gl__side {
+      color: aqua;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+  }
 }
 
 .inner:before {
@@ -209,7 +213,7 @@ body {
   transition: --bg-size var(--interaction-speed) ease;
 }
 
-.card .glow {
+.g_card .glow {
   --glow-translate-y: 0;
   display: block;
   position: absolute;
@@ -221,7 +225,7 @@ body {
   border-radius: calc(var(--glow-radius) * 10vw);
 }
 
-.card .glow:after {
+.g_card .glow:after {
   content: "";
   display: block;
   z-index: -2;
