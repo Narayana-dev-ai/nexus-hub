@@ -2,7 +2,7 @@ import "./EducationLayoutCard.scss";
 
 export const EducationLayoutCard = () => {
   return (
-    <div className="card">
+    <div className="ed_card">
       <div className="card__header">
         <div className="dots">
           <span />
