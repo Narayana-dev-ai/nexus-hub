@@ -10,6 +10,7 @@
     .card__details {
       position: relative;
       align-self: center;
+      width: 40%;
 
       .home_btn {
         display: flex;
@@ -46,6 +47,10 @@
 
       .home__title {
         font-size: 2rem;
+        p {
+          font-size: 1.5rem;
+          color: rgb(243 241 246 / 78%);
+        }
 
         &__color {
           color: #f0dd09;

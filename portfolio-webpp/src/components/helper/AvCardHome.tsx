@@ -3,20 +3,24 @@ import "./AvCardHome.scss";
 export const AvCardHome = () => {
   return (
     <div className="full__card">
-      <div className="text__area">
-        <div>
+      <div className="card__details">
+        <h1 className="home__title">
+          Hi,
+          <br />
+          This is <span className="home__title__color">Narayana</span>
+          <br />
+          I'm a Software Engineer
           <p>
-            Hello All, MySelf <h2>Narayana Reddy</h2>
+            ⚡Crazy programmer! Professional & Ambitious. I love the wide range
+            of stacks of Software Engineering that includes Frontend, Backend,
+            and DevOps⚡
           </p>
-        </div>
-        <div>
-          <p>
-            <h1>
-              I am Working as a Software Developer @AIRBUS I am Working as a
-              Software Developer @AIRBUS I am Working as a Software Developer
-              @AIRBUS
-            </h1>
-          </p>
+        </h1>
+        <div className="home_btn">
+          <a href="/skills" className="contact__btn">
+            CONTACT ME
+          </a>
+          <button className="contact__btn">GET RESUME</button>
         </div>
       </div>
       <div className="video_block__card">

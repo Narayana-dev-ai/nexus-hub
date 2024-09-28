@@ -21,6 +21,11 @@ export const ContactCard = () => {
             This is <span className="home__title__color">Narayana</span>
             <br />
             I'm a Software Engineer
+            <p>
+              ⚡Crazy programmer! Professional & Ambitious. I love the wide
+              range of stacks of Software Engineering that includes Frontend,
+              Backend, and DevOps⚡
+            </p>
           </h1>
           <div className="home_btn">
             <a href="/skills" className="contact__btn">
