@@ -1,3 +1,4 @@
+import { handleDownload } from "../../utils/commons_modules";
 import "./AvCardHome.scss";
 
 export const AvCardHome = () => {
@@ -20,7 +21,9 @@ export const AvCardHome = () => {
           <a href="/skills" className="contact__btn">
             CONTACT ME
           </a>
-          <button className="contact__btn">GET RESUME</button>
+          <button className="contact__btn" onClick={handleDownload}>
+            GET RESUME
+          </button>
         </div>
       </div>
       <div className="video_block__card">
