@@ -37,7 +37,7 @@
         font-weight: 600;
         border-radius: 2rem;
         transition: 0.3s;
-        align-self: center;
+        text-align: center;
 
         &:hover {
           color: rgb(232, 205, 205);
@@ -56,6 +56,7 @@
       }
 
       &__color {
+        font-size: 3rem;
         color: #f0dd09;
       }
     }
