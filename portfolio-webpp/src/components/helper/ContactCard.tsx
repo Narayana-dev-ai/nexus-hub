@@ -1,5 +1,6 @@
 import { handleDownload } from "../../utils/commons_modules";
 import "./ContactCard.scss";
+import { ContactFormModal } from "./ContactFormModal";
 
 export const ContactCard = () => {
   return (
@@ -18,9 +19,9 @@ export const ContactCard = () => {
           </p>
         </h1>
         <div className="home_btn">
-          <a href="/skills" className="contact__btn">
+          <button className="contact__btn" onClick={ContactFormModal}>
             CONTACT ME
-          </a>
+          </button>
           <button onClick={handleDownload} className="contact__btn">
             GET RESUME
           </button>
