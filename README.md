@@ -4,7 +4,7 @@
 
 
 <h1>SECTIONS 📑</h1>
-
+<img alt="About" src="https://github.com/Narayana-dev-ai/nexus-hub/blob/main/Portfolio_track_images/about.png"/>
 <ul>
   <li>Home</li>
   <li>About</li>
