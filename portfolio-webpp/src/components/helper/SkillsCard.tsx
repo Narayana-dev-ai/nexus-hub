@@ -5,9 +5,6 @@ import "./SkillsCard.scss";
 export const SkillsCard = () => {
   return (
     <div className="skill__card">
-      <div className="skill__describe">
-        <h1>Hey </h1>
-      </div>
       <LineCard title="SKILLS" />
       <div className="skill__items">
         <div className="icon__scroll">

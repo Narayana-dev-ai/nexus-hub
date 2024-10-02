@@ -1,3 +1,13 @@
 .project__card {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &__items {
+    padding: 15px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+  }
 }
