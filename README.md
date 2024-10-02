@@ -13,3 +13,11 @@
   <li>Educations</li>
   <li>Projects</li>
 </ul>
+
+<h1>Installation ⬇️</h1>
+<h3>You will need to download Git and Node to run this project</h3>
+<ul>
+  <li><a href="https://git-scm.com/downloads">Git</a></li>
+  <li><a href="https://nodejs.org/en/download/package-manager">Node</a></li>
+</ul>
+<h3>Make sure you have the latest version of both Git and Node on your computer.</h3>
