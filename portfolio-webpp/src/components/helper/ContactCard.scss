@@ -95,4 +95,10 @@
     align-items: center;
     row-gap: 2rem;
   }
+
+  .insights {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
 }

@@ -53,7 +53,7 @@ export const ContactCard = () => {
           </Pie>
           <Tooltip />
         </PieChart>
-        <BarChart width={600} height={600} data={bar_data}>
+        <BarChart width={800} height={600} data={bar_data}>
           <Bar dataKey="skill" fill="green" />
           <CartesianGrid stroke="#ccc" />
           <XAxis dataKey="name"/>
