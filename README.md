@@ -1,20 +1,19 @@
 <h1>Demo 📽</h1>
 
-<video playsInline disableRemotePlayback autoPlay muted loop>
-  <source src="https://github.com/Narayana-dev-ai/nexus-hub/blob/main/Portfolio_track_images/20241005125646.mp4" type="video/mp4" />
-</video>
 <img alt="portfolio_webapp" src="https://github.com/Narayana-dev-ai/nexus-hub/blob/main/Portfolio_track_images/HomePage.png"/>
 
+<h1>Portfolio Website 🖥💻</h1>
+<a href="https://github.com/Narayana-dev-ai/nexus-hub/blob/main/Portfolio_track_images/20241005125646.mp4">nexus-hub</a>
 
 <h1>SECTIONS 📑</h1>
 <img alt="About" src="https://github.com/Narayana-dev-ai/nexus-hub/blob/main/Portfolio_track_images/about.png"/>
 <ul>
-  <li>Home</li>
-  <li>About</li>
-  <li>Works</li>
-  <li>Skills</li>
-  <li>Educations</li>
-  <li>Projects</li>
+  <li><a href="https://github.com/Narayana-dev-ai/nexus-hub/blob/main/Portfolio_track_images/HomePage.png" alt="Home">Home</a></li>
+  <li><a href="https://github.com/Narayana-dev-ai/nexus-hub/blob/main/Portfolio_track_images/about.png" alt="About">About</a></li>
+  <li><a href="https://github.com/Narayana-dev-ai/nexus-hub/blob/main/Portfolio_track_images/Work.png" alt="Work">Work</a></li>
+  <li><a href="https://github.com/Narayana-dev-ai/nexus-hub/blob/main/Portfolio_track_images/skill-10-05 131551.png" alt="skills">Skills</a></li>
+  <li><a href="https://github.com/Narayana-dev-ai/nexus-hub/blob/main/Portfolio_track_images/Educations.png" alt="Education">Educations</a></li>
+  <li><a href="https://github.com/Narayana-dev-ai/nexus-hub/blob/main/Portfolio_track_images/project%20details.png" alt="Projects">Projects</a></li>
 </ul>
 
 <h1>Installation ⬇️</h1>
