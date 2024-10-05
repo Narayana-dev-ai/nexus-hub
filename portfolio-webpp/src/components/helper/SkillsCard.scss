@@ -19,6 +19,7 @@
       .card {
         width: 200px;
         height: 150px;
+        text-align: center;
 
         img {
           width: 100%;
@@ -40,5 +41,15 @@
         transform: translate(-50%, 0);
       }
     }
+  }
+
+  .skill_insights {
+    width: 100%;
+    height: auto;
+    background: rgba(19, 15, 15, 0.301);
+    border-radius: 20px;
+    padding: 15px;
+    display: grid;
+    place-items: center;
   }
 }
