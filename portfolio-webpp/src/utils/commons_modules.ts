@@ -7,3 +7,19 @@ export const handleDownload = () => {
   link.click();
   document.body.removeChild(link);
 };
+
+export const data = [
+  { name: "Telugu", language: 1000, level: "Native" },
+  { name: "English", language: 800, level: "Proficient" },
+  { name: "Hindi", language: 600, level: "Intermediate" },
+];
+
+export const COLORS = ["#0088FE", "#00C49F", "#FFBB28"];
+
+export const bar_data = [
+  { name: "React Js", skill: 800 },
+  { name: "Java", skill: 700 },
+  { name: "TypeScript", skill: 950 },
+  { name: "AWS", skill: 700 },
+  { name: "Python", skill: 600 },
+];
