@@ -4,9 +4,10 @@
   flex-direction: column;
 
   &__items {
-    padding: 15px;
+    width: 100%;
+    padding: 35px;
     display: flex;
-    gap: 15px;
     flex-wrap: wrap;
+    gap: 15px;
   }
 }

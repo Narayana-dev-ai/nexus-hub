@@ -48,8 +48,8 @@ export const ProjectsCard = () => {
           description="Establishing a user friendly platform for students and staff to manage their data"
           responsibility={[
             "Reviewed all the scenarios",
-            "designed a high level user diagram",
-            "implemented with Python tkinter and SQLite3 database",
+            "Designed a high level user diagram",
+            "Implemented with Python tkinter and SQLite3 database",
           ]}
           from="Apr 2018"
           tStack={["Python", "SQLite3"]}

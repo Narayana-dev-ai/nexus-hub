@@ -22,15 +22,13 @@ export const EducationLayoutCard: React.FC<{
       <div className="card__content">
         <div className="card__cont">
           <div className="description">
-            <div>
-              <h3>DESCRIPTION: </h3> {description}
-            </div>
+            <h3>DESCRIPTION: </h3> <p>{description}</p>
           </div>
           <div className="stack">
             <h3>RESPONSIBILITIES: </h3>
             <div className="stack__items">
               {responsibility.map((item, index) => {
-                return <p key={index}>{item}</p>;
+                return <p key={index} className="response">{item}</p>;
               })}
             </div>
           </div>
