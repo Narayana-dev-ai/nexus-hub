@@ -2,6 +2,9 @@
 
 <img alt="portfolio_webapp" src="https://github.com/Narayana-dev-ai/nexus-hub/blob/main/Portfolio_track_images/HomePage.png"/>
 
+<h1>AWARDS </h1>
+<a href="https://github.com/Narayana-dev-ai/nexus-hub/blob/main/Spot%20Award%20-%20Lakkireddy%20Narayana%20Reddy.pdf" alt="spot award">Spot Award</a>
+
 <h1>Portfolio Website 🖥💻</h1>
 <a href="https://github.com/Narayana-dev-ai/nexus-hub/blob/main/Portfolio_track_images/20241005125646.mp4">nexus-hub</a>
 
